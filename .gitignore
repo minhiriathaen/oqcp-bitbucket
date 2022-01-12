@@ -1,1 +1,5 @@
+web/web.iml
+*.iml
 .idea/
+backend/src/__tests__/database_test.sqlite
+**/junit.xml

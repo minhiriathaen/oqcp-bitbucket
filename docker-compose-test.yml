@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  bitbucket-proxy:
+    image: repo.minhiriathaen.com/oqcp/bitbucket-proxy:${TAG:-latest}
+    ports:
+      - 81:80
+    
+  bitbucket-frontend:
+    image: repo.minhiriathaen.com/oqcp/bitbucket-frontend:${TAG:-latest}    
+
+  bitbucket-backend:
+    image: repo.minhiriathaen.com/oqcp/bitbucket-backend:${TAG:-latest}

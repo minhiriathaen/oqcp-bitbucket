@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  bitbucket-proxy:
+    build:
+      context: ./proxy
+    image: oqcp/bitbucket-proxy
+    restart: unless-stopped
+    networks:
+      - oqcp-bitbucket
+    depends_on:
+      - bitbucket-frontend
+      - bitbucket-backend
+
+  bitbucket-frontend:
+    build:
+      context: ./web
+    image: oqcp/bitbucket-frontend
+    restart: unless-stopped
+    stdin_open: true
+    networks:
+      - oqcp-bitbucket
+
+  bitbucket-backend:
+    build:
+      context: ./backend
+    image: oqcp/bitbucket-backend
+    restart: unless-stopped
+    networks:
+      - oqcp-bitbucket
+    env_file:
+      - ${CONTAINER_ENV_FILE}
+
+  bitbucket-database:
+    image: postgres:13.1-alpine
+    restart: unless-stopped
+    networks:
+      - oqcp-bitbucket
+    env_file:
+      - ${CONTAINER_ENV_FILE}
+
+networks:
+  oqcp-bitbucket:
+    name: oqcp-bitbucket

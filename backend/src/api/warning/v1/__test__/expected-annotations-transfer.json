@@ -1,0 +1,110 @@
+[
+	{
+		"annotation_type": 2,
+		"external_id": "44626cfbf04f7356fa421075362c6b6f4d5f0a44",
+		"line": 90,
+		"path": "src/ThreadsController.java",
+		"severity": 3,
+		"summary": "Possibility of predictable random numbers.",
+		"title": "Weak Randomness"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "1ec3f46be376b9aeb9d17b8adecc5b5756822764",
+		"line": 89,
+		"path": "src/ThreadsController.java",
+		"severity": 3,
+		"summary": "Possibility of predictable random numbers.",
+		"title": "Weak Randomness"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "adf291d5e36c20d1d9c30027779970af7d443e10",
+		"line": 88,
+		"path": "src/ThreadsController.java",
+		"severity": 3,
+		"summary": "Possibility of predictable random numbers.",
+		"title": "Weak Randomness"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "c8dce9b0c7aada06aed14fdaeda391d6d57ee7f6",
+		"line": 90,
+		"path": "src/ThreadsController.java",
+		"severity": 0,
+		"summary": "Make sure that using this pseudorandom number generator is safe here.",
+		"title": "Using pseudorandom number generators (PRNGs) is security-sensitive"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "52ea5eb8fe0a6fcbe7cf051281df0754413c50fc",
+		"line": 89,
+		"path": "src/ThreadsController.java",
+		"severity": 0,
+		"summary": "Make sure that using this pseudorandom number generator is safe here.",
+		"title": "Using pseudorandom number generators (PRNGs) is security-sensitive"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "9ab010bb545c5193e36acf400f98dd0215868cdb",
+		"line": 88,
+		"path": "src/ThreadsController.java",
+		"severity": 0,
+		"summary": "Make sure that using this pseudorandom number generator is safe here.",
+		"title": "Using pseudorandom number generators (PRNGs) is security-sensitive"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "ef76ebbaa310557f92c8fe18e9946b2cd2c8b2c9",
+		"line": 90,
+		"path": "src/ThreadsController.java",
+		"severity": 1,
+		"summary": "Avoid unused local variables.",
+		"title": "Unused Local Variable"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "bcd6f5d3c83ee465ca656fe08360a05137717098",
+		"line": 90,
+		"path": "src/ThreadsController.java",
+		"severity": 1,
+		"summary": "Remove this useless assignment to local variable \"ranZ\".",
+		"title": "Dead stores should be removed"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "60f4645d7c7468d514cb899ffca659f4c96a54ca",
+		"line": 89,
+		"path": "src/ThreadsController.java",
+		"severity": 1,
+		"summary": "Use \"java.util.Random.nextInt()\" instead.",
+		"title": "Methods of \"Random\" that return floating point values should not be used in random integer generation"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "e0a2f7037a73f0db6d16539ac3d08ee507bcae21",
+		"line": 88,
+		"path": "src/ThreadsController.java",
+		"severity": 1,
+		"summary": "Use \"java.util.Random.nextInt()\" instead.",
+		"title": "Methods of \"Random\" that return floating point values should not be used in random integer generation"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "3e3c63487407d9b0aa392e4892d0ec1571bb13d6",
+		"line": 90,
+		"path": "src/ThreadsController.java",
+		"severity": 1,
+		"summary": "Use \"java.util.Random.nextInt()\" instead.",
+		"title": "Methods of \"Random\" that return floating point values should not be used in random integer generation"
+	},
+	{
+		"annotation_type": 2,
+		"external_id": "9432cd99ed5c7470c871ea3737d19c88b3f68a0d",
+		"line": 90,
+		"path": "src/ThreadsController.java",
+		"severity": 1,
+		"summary": "Remove this unused \"ranZ\" local variable.",
+		"title": "Unused local variables should be removed"
+	}
+]

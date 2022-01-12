@@ -1,0 +1,19 @@
+{
+  "product": "bitbucket",
+  "test": {
+    "store": {
+      "adapter": "sequelize",
+      "dialect": "sqlite",
+      "storage": "src/__tests__/database_test.sqlite:oqcp-bitbucket-memory-db?mode=memory&cache=shared"
+    }
+  },
+  "development": {
+    "port": 8080,
+    "store": {
+      "adapter": "sequelize",
+      "dialect": "postgres",
+      "url": "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB"
+    },
+    "localBaseUrl": "$ADDON_BASE_URL"
+  }
+}

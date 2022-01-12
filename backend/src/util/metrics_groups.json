@@ -1,0 +1,296 @@
+[
+  {
+    "tabname": "Size",
+    "metrics": [
+      "LOC",
+      "LLOC",
+      "NA",
+      "NCL",
+      "NEN",
+      "NG",
+      "NIN",
+      "NLA",
+      "NLG",
+      "NLM",
+      "NLPA",
+      "NLPM",
+      "NLS",
+      "NM",
+      "NPKG",
+      "NUMPAR",
+      "NPA",
+      "NPM",
+      "NS",
+      "NOS",
+      "TLOC",
+      "TLLOC",
+      "TNA",
+      "TNCL",
+      "TNDI",
+      "TNEN",
+      "TNFI",
+      "TNG",
+      "TNIN",
+      "TNLA",
+      "TNLG",
+      "TNLM",
+      "TNLPA",
+      "TNLPM",
+      "TNLS",
+      "TNM",
+      "TNPKG",
+      "TNPA",
+      "TNPCL",
+      "TNPEN",
+      "TNPIN",
+      "TNPM",
+      "TNS",
+      "TNOS"
+    ]
+  },
+  {
+    "tabname": "Complexity",
+    "metrics": [
+      "HCPL",
+      "HDIF",
+      "HEFF",
+      "HNDB",
+      "HPL",
+      "HPV",
+      "HTRP",
+      "HVOL",
+      "MIMS",
+      "MI",
+      "MISEI",
+      "MISM",
+      "McCC",
+      "NL",
+      "NLE",
+      "WMC"
+    ]
+  },
+  {
+    "tabname": "Cohesion",
+    "metrics": [
+      "LCOM5"
+    ]
+  },
+  {
+    "tabname": "Coupling",
+    "metrics": [
+      "CBO",
+      "CBOI",
+      "NII",
+      "NOI",
+      "RFC"
+    ]
+  },
+  {
+    "tabname": "Inheritance",
+    "metrics": [
+      "DIT",
+      "NOA",
+      "NOC",
+      "NOD",
+      "NOP"
+    ]
+  },
+  {
+    "tabname": "Documentation",
+    "metrics": [
+      "AD",
+      "CD",
+      "CLOC",
+      "DLOC",
+      "PDA",
+      "PUA",
+      "TAD",
+      "TCD",
+      "TCLOC",
+      "TPDA",
+      "TPUA"
+    ]
+  },
+  {
+    "tabname": "Clone",
+    "metrics": [
+      "CA",
+      "CCL",
+      "CCO",
+      "CC",
+      "CEE",
+      "CEG",
+      "CE",
+      "CI",
+      "CLC",
+      "CLLOC",
+      "CLLC",
+      "CR",
+      "CV",
+      "LDC",
+      "LLDC",
+      "NCR"
+    ]
+  },
+  {
+    "tabname": "Rule violations",
+    "metrics": [
+      "WarningBlocker",
+      "WarningCritical",
+      "WarningMajor",
+      "WarningMinor",
+      "WarningInfo"
+    ]
+  },
+  {
+    "tabname": "Process",
+    "metrics": [
+      "AVGNOAL",
+      "AVGNODL",
+      "AVGNOEMT",
+      "AVGNOML",
+      "AVGTBC",
+      "CChurn",
+      "LNOEMT",
+      "MNOAL",
+      "MNODL",
+      "MNOEMT",
+      "MNOML",
+      "NOADD",
+      "NOCHG",
+      "NOCC",
+      "NOContr",
+      "NODEL",
+      "NOMOD",
+      "SOWC",
+      "AVGWC",
+      "SOTBC",
+      "SOMT",
+      "SOMOD",
+      "SODEL",
+      "SOADD",
+      "LCHG",
+      "CRTD"
+    ]
+  },
+  {
+    "tabname": "API Documentation",
+    "metrics": [
+      "AD"
+    ]
+  },
+  {
+    "tabname": "Coupling Between Object classes",
+    "metrics": [
+      "CBO"
+    ]
+  },
+  {
+    "tabname": "Clone Coverage",
+    "metrics": [
+      "CC"
+    ]
+  },
+  {
+    "tabname": "Clone Complexity",
+    "metrics": [
+      "CCO"
+    ]
+  },
+  {
+    "tabname": "Comment Density",
+    "metrics": [
+      "CD"
+    ]
+  },
+  {
+    "tabname": "Clone Instances",
+    "metrics": [
+      "CI"
+    ]
+  },
+  {
+    "tabname": "Halstead Volume",
+    "metrics": [
+      "HVOL"
+    ]
+  },
+  {
+    "tabname": "Lack of Cohesion in Methods 5",
+    "metrics": [
+      "LCOM5"
+    ]
+  },
+  {
+    "tabname": "Logical Lines of Code",
+    "metrics": [
+      "LLOC"
+    ]
+  },
+  {
+    "tabname": "McCabe's Cyclomatic Complexity",
+    "metrics": [
+      "McCC"
+    ]
+  },
+  {
+    "tabname": "Number of Incoming Invocations",
+    "metrics": [
+      "NII"
+    ]
+  },
+  {
+    "tabname": "Number of Local Attributes",
+    "metrics": [
+      "NLA"
+    ]
+  },
+  {
+    "tabname": "Nesting Level Else-If",
+    "metrics": [
+      "NLE"
+    ]
+  },
+  {
+    "tabname": "Number of Local Methods",
+    "metrics": [
+      "NLM"
+    ]
+  },
+  {
+    "tabname": "Number of Local Public Attributes",
+    "metrics": [
+      "NLPA"
+    ]
+  },
+  {
+    "tabname": "Number of Parameters",
+    "metrics": [
+      "NUMPAR"
+    ]
+  },
+  {
+    "tabname": "Response set For Class",
+    "metrics": [
+      "RFC"
+    ]
+  },
+  {
+    "tabname": "Critical Warnings",
+    "metrics": [
+      "WarningCritical"
+    ]
+  },
+  {
+    "tabname": "Major Warnings",
+    "metrics": [
+      "WarningMajor"
+    ]
+  },
+  {
+    "tabname": "Minor Warnings",
+    "metrics": [
+      "WarningMinor"
+    ]
+  }
+]

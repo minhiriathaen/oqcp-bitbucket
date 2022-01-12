@@ -1,0 +1,7 @@
+.settings
+.idea
+.git
+.metadata
+Dockerfile
+target
+node_modules

@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  jira-proxy:   
+    ports:
+      - 80:80
+    

@@ -1,0 +1,91 @@
+{
+    "key": "oqcp-bitbucket",
+    "name": "OpenQualityChecker Bitbucket Plugin",
+    "description": "OpenQualityChecker plug-in for Bitbucket",
+    "baseUrl": "{{localBaseUrl}}",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed",
+        "uninstalled": "/uninstalled"
+    },
+    "modules": {
+        "webPanels": [
+            {
+                "url": "/example.html?repoPath={repository.full_name}",
+                "name": {
+                    "value": "Example Web Panel"
+                },
+                "location": "org.bitbucket.repository.overview.informationPanel",
+                "key": "example-web-panel"
+            }
+        ],
+        "webCards": [
+            {
+                "url": "/pull-request-overview-analysis.html?repositoryId={repository.uuid}&pullRequestId={pullrequest.id}",
+                "name": {
+                    "value": "Pull request analysis"
+                },
+                "params": {
+                    "auiIcon": "aui-iconfont-macro-status"
+                },
+                "location": "org.bitbucket.pullrequest",
+                "key": "pull-request-overview-analysis"
+            }
+        ],
+        "adminPages": [
+            {
+                "url": "/edit-repository-mapping.html?repositoryId={repository.uuid}",
+                "name": {
+                    "value": "Connect OpenQualityChecker projects"
+                },
+                "location": "org.bitbucket.repository.admin",
+                "key": "edit-repository-mapping"
+            }
+        ],
+        "configurePage": [
+            {
+                "key": "edit-workspace-mapping",
+                "name": {
+                    "value": "Connect OpenQualityChecker admin"
+                },
+                "url": "/edit-workspace-mapping.html"
+            }
+        ],
+        "webhooks": [
+            {
+                "event": "pullrequest:created",
+                "url": "/api/webhook/v1/pullrequest/created"
+            },
+            {
+                "event": "pullrequest:rejected",
+                "url": "/api/webhook/v1/pullrequest/rejected"
+            },
+            {
+                "event": "pullrequest:fulfilled",
+                "url": "/api/webhook/v1/pullrequest/fulfilled"
+            },
+            {
+                "event": "pullrequest:updated",
+                "url": "/api/webhook/v1/pullrequest/updated"
+            },
+            {
+                "event": "repo:created",
+                "url": "/api/webhook/v1/repository/created"
+            },
+            {
+                "event": "repo:deleted",
+                "url": "/api/webhook/v1/repository/deleted"
+            }
+        ]
+    },
+    "scopes": [
+        "account",
+        "repository",
+        "pullrequest"
+    ],
+    "contexts": [
+        "account"
+    ]
+}

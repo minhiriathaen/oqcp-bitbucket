@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  bitbucket-proxy:
+    ports:
+      - 80:80
+
+  bitbucket-frontend:
+    ports:
+      - 3000:3000
+
+  bitbucket-backend:
+    command: sh -c "./wait-for bitbucket-database:5432 -- yarn start"
+    ports:
+      - 8080:8080
+
+  bitbucket-database:
+    ports:
+      - 5433:5432

@@ -1,0 +1,7 @@
+node_modules
+build
+server
+coverage
+public
+src/serviceWorker.ts
+src/**/*/__test__/**/*.test.tsx

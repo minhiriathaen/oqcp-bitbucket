@@ -1,0 +1,153 @@
+{
+  "displayNames": {
+    "AD": "API Documentation",
+    "CBO": "Coupling Between Object classes",
+    "CC": "Clone Coverage",
+    "CCO": "Clone Complexity",
+    "CD": "Comment Density",
+    "CI": "Clone Instances",
+    "HVOL": "Halstead Volume",
+    "LCOM5": "Lack of Cohesion in Methods 5",
+    "LLOC": "Logical Lines of Code",
+    "McCC": "McCabe's Cyclomatic Complexity",
+    "NII": "Number of Incoming Invocations",
+    "NLA": "Number of Local Attributes",
+    "NLE": "Nesting Level Else-If",
+    "NLM": "Number of Local Methods",
+    "NLPA": "Number of Local Public Attributes",
+    "NUMPAR": "Number of Parameters",
+    "RFC": "Response set For Class",
+    "WarningCritical": "Critical Warnings",
+    "WarningMajor": "Major Warnings",
+    "WarningMinor": "Minor Warnings"
+  },
+  "projectId": 628212,
+  "sourceBranchName": "feature/test",
+  "sourceBranchRev": "test_source_commit",
+  "sourceMetrics": [
+    {
+      "displayName": "Clone Complexity",
+      "displayname": "Clone Complexity",
+      "helpText": "<b>Clone instance:</b> the McCabe complexity of the code fragment corresponding to the clone instance.<br><b>Clone class:</b> sum of CCO of clone instances in the clone class.<br><b>Method/class/package:</b> sum of CCO of clone instances in the source code element.<br><b>Component:</b> sum of CCO of clone instances in the component.",
+      "metricId": 116,
+      "name": "CCO",
+      "package": "SourceMeter",
+      "value": 0
+    },
+    {
+      "displayName": "Minor Warnings",
+      "displayname": "Minor Warnings",
+      "helpText": "Number of warnings with Minor priority",
+      "metricId": 205,
+      "name": "WarningMinor",
+      "package": "SourceMeter",
+      "value": 114
+    }
+  ],
+  "sourceQualification": {
+    "benchmarkId": 6,
+    "qualifications": {
+      "Maintainability": {
+        "name": "Maintainability",
+        "sceType": "",
+        "value": 4.756813344410675
+      },
+      "Code duplication": {
+        "name": "Code duplication",
+        "sceType": "",
+        "value": 7.724137931034482
+      }
+    },
+    "qualityModelId": 7,
+    "version": {
+      "analyzerMessage": null,
+      "authorDate": "2021-05-12T08:19:43Z",
+      "authorEmail": "minhiriathaen@gmail.com",
+      "authorName": "Minhiri Athaen",
+      "committerDate": "2021-05-12T08:19:43Z",
+      "committerEmail": "minhiriathaen@gmail.com",
+      "committerName": "Minhiri Athaen",
+      "failedAttempts": null,
+      "hash": "186310911730f165dd9e82befd5ef382066b86ac",
+      "id": 707727,
+      "lastStatusChange": null,
+      "log": "ThreadsController.java edited online with Bitbucket",
+      "status": null
+    }
+  },
+  "targetBranchName": "master",
+  "targetBranchRev": "test_destination_commit",
+  "targetMetrics": [
+    {
+      "displayName": "Clone Complexity",
+      "displayname": "Clone Complexity",
+      "helpText": "<b>Clone instance:</b> the McCabe complexity of the code fragment corresponding to the clone instance.<br><b>Clone class:</b> sum of CCO of clone instances in the clone class.<br><b>Method/class/package:</b> sum of CCO of clone instances in the source code element.<br><b>Component:</b> sum of CCO of clone instances in the component.",
+      "metricId": 116,
+      "name": "CCO",
+      "package": "SourceMeter",
+      "value": 0
+    },
+    {
+      "displayName": "Minor Warnings",
+      "displayname": "Minor Warnings",
+      "helpText": "Number of warnings with Minor priority",
+      "metricId": 205,
+      "name": "WarningMinor",
+      "package": "SourceMeter",
+      "value": 119
+    }
+  ],
+  "targetQualification": {
+    "benchmarkId": 6,
+    "qualifications": {
+      "Maintainability": {
+        "name": "Maintainability",
+        "sceType": "",
+        "value": 4.746813344410675
+      },
+      "Code duplication": {
+        "name": "Code duplication",
+        "sceType": "",
+        "value": 7.114137931034482
+      }
+    },
+    "qualityModelId": 7,
+    "version": {
+      "analyzerMessage": null,
+      "authorDate": "2021-05-20T12:44:32Z",
+      "authorEmail": "minhiriathaen@gmail.com",
+      "authorName": "Minhiri Athaen",
+      "committerDate": "2021-05-20T12:44:32Z",
+      "committerEmail": "minhiriathaen@gmail.com",
+      "committerName": "Minhiri Athaen",
+      "failedAttempts": 0,
+      "hash": "a213074738a2760b8cb6501e9749f02353038411",
+      "id": 783414,
+      "lastStatusChange": "2021-05-20T12:45:10.862693Z",
+      "log": "ThreadsController.java edited online with Bitbucket",
+      "status": "ANALYZED"
+    }
+  },
+  "qualityProfileResult": {
+    "version": null,
+    "result": false,
+    "resultsOfRules": [
+      {
+        "actualValue": 2,
+        "result": false,
+        "type": "Code complexity",
+        "entity": "Code",
+        "operator": "GT",
+        "value": 4
+      },
+      {
+        "type": "QUALIFICATION_NODE",
+        "entity": "Maintainability",
+        "operator": "GE",
+        "value": 5.0,
+        "actualValue": 7.979551192647265,
+        "result": true
+      }
+    ]
+  }
+}
